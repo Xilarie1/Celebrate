@@ -1,0 +1,19 @@
+{
+  "name": "celebrate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3",
+    "randomcolor": "^0.6.2",
+    "tsparticles": "^3.9.1"
+  }
+}
