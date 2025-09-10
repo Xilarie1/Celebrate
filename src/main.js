@@ -3,6 +3,7 @@ import { initButton } from "./components/button.js";
 import "./style.css";
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.title = "Celebrate";
   const app = document.getElementById("app");
 
   // Background
