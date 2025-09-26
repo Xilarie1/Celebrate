@@ -4,6 +4,7 @@ import { createVelocitySlider } from "./slider.js";
 import "./style.css";
 
 document.addEventListener("DOMContentLoaded", () => {
+  document.title = "Celebrate";
   const app = document.getElementById("app");
 
   // Background
