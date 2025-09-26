@@ -1,5 +1,6 @@
 import { initBackground } from "./components/background.js";
 import { initButton } from "./components/button.js";
+import { createVelocitySlider } from "./slider.js";
 import "./style.css";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -20,8 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
   button.textContent = "Fireworks Gandalf!";
 
   center.appendChild(button);
+
+  const getSliderValue = createVelocitySlider(center);
+
   app.appendChild(center);
 
   initBackground();
-  initButton();
+  initButton(getSliderValue);
 });
